@@ -1,11 +1,8 @@
-import './App.css';
-import TodoForm from "./component/TodoForm"
-function App() {
+import FormAndList from "./component/FormAndList";
+export default function App() {
   return (
     <div className="App">
-      <TodoForm/>
+      <FormAndList />
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,74 @@
+/* List.css */
+
+/* Style for the list container */
+.list-container {
+    margin: 20px;
+  }
+  
+  /* Style for each task item container */
+  .task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #dde9bb; /* Light green color for task container background */
+    border: 1px solid #4d8347; /* Green border for task container */
+    border-radius: 4px;
+  }
+  
+  /* Style for each task item */
+  .tasks {
+    font-size: 18px;
+    color: #4d8347; /* Green color for task text */
+  }
+  
+  /* Style for the "Edit" button */
+  .edit-button {
+    background-color: #4d8347; /* Green color for button background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the "Edit" button on hover */
+  .edit-button:hover {
+    background-color: #2f5e2f; /* Darker green color on hover */
+  }
+  
+  /* Style for the "Delete" button */
+  .delete-button {
+    background-color: #ff5733; /* Red color for button background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the "Delete" button on hover */
+  .delete-button:hover {
+    background-color: #d83200; /* Darker red color on hover */
+  }
+  
+  /* Style for the task status button */
+  .task-status {
+    background-color: #4d8347; /* Green color for button background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the task status button on hover */
+  .task-status:hover {
+    background-color: #2f5e2f; /* Darker green color on hover */
+  }
+  

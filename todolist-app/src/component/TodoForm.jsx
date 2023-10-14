@@ -1,16 +1,16 @@
 import React, { useState } from "react";
+import "./TodoForm.css";
 function TodoForm(props) {
   const [title, setTitle] = useState("");
-  const [tasklist, setTasklist] = useState([]);
   const handleChange = (e) => {
     e.preventDefault();
     setTitle(e.target.value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTasklist([title, ...tasklist]);
-    props.getListFromTodoForm(tasklist);
-    setTitle("");
+    if (title.trim() !== "") {
+      props.getTitle(title);
+    }
   };
   return (
     <div>

@@ -1,0 +1,34 @@
+/* TodoForm.css */
+
+/* Style for the form container */
+.form-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Style for the input field */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4d8347; /* Green color for input border */
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the add task button */
+  .form-btn {
+    padding: 10px 20px;
+    background-color: #4d8347; /* Green color for button background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style for the add task button on hover */
+  .form-btn:hover {
+    background-color: #2f5e2f; /* Darker green color on hover */
+  }
+  
