@@ -45,5 +45,19 @@
 }
 .btn{
     height: 30px;
-    width: 60px;
+    min-width: 60px;
+    width: fit-content;
+    cursor: pointer;
+}
+.taskcard{
+    height: 60px;
+    width: 600px;
+}
+.grd{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+}
+.status{
+    margin-left: 20px;
 }
